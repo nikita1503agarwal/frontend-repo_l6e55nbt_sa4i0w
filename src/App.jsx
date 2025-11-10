@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
-import { HardHat, Wrench, Road, Pipeline, Excavator, Phone, Mail, ArrowRight, Building2, MapPin } from 'lucide-react'
+import { HardHat, Wrench, Route, Phone, Mail, ArrowRight, Building2, MapPin, Truck, Layers } from 'lucide-react'
 
 const Section = ({ id, children, bg = 'bg-transparent' }) => (
   <section id={id} className={`${bg} relative w-full`}>{children}</section>
@@ -175,19 +175,19 @@ const Services = () => {
       img: 'https://images.unsplash.com/photo-1504805572947-34fad45aed93?q=80&w=1200&auto=format&fit=crop'
     },
     {
-      icon: Road,
+      icon: Route,
       title: 'Road and Highway Works',
       desc: 'High-quality road construction, widening, and maintenance adhering to IRC and MORTH specifications.',
       img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop'
     },
     {
-      icon: Pipeline,
+      icon: Layers,
       title: 'Pipeline Installation & Maintenance',
       desc: 'Underground and above-ground pipelines, hydro-testing, and maintenance with safety-first approach.',
       img: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200&auto=format&fit=crop'
     },
     {
-      icon: Excavator,
+      icon: Truck,
       title: 'Mining Operations & Infrastructure',
       desc: 'Mine development, haul roads, crushing & screening support, and equipment deployment at scale.',
       img: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=1200&auto=format&fit=crop'
